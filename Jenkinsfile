@@ -63,4 +63,6 @@ stages {
 			              repository: 'sample1', 
 			              version: '1.0-SNAPSHOT'
 			}
-		}
+      } 
+}
+}
