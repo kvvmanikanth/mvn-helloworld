@@ -53,10 +53,10 @@ stages {
                 nexusArtifactUploader artifacts: [
 			              [artifactId: 'mvn-hello-world', 
 				      classifier: '', 
-				      file: '/var/lib/jenkins/workspace/pipeline-1/target/mvn-hello-world.war', 
+				      file: '/var/lib/jenkins/workspace/Demo_Pipeline/target/my-app.jar', 
 				      type: 'war']], 
 			              credentialsId: '3cc9398a-7b36-475c-8930-e614fe58df8d', 
-			              groupId: 'com.dev3l.hello_world',
+			              groupId: 'com.mycompany.app',
 			              nexusUrl: 'host2.com:8081',
 			              nexusVersion: 'nexus3', 
 			              protocol: 'http', 
