@@ -1,4 +1,4 @@
-pipeline{
+pipeline {
 
 
 
@@ -7,7 +7,7 @@ agent any
 //agent {label 'linux'} if you want to run this project in jenkins slave,before that you have to configure jenkins slave node
        
 
-       tools{
+       tools {
 
 	//WE HAVE DEFINED THE VALUES OF JAVA_HOME & m2_HOME IN GLOBAL TOOL CONFIGURATION
 
@@ -34,8 +34,8 @@ stages {
 
 
 
-       stage('MavenBuild'){
-              steps{
+       stage('MavenBuild') {
+              steps {
                   sh "mvn --version"
                   sh "mvn clean install"
               }
@@ -43,8 +43,8 @@ stages {
 
 
 
-      stage('Publish'){
-             steps{
+      stage('Publish') {
+             steps {
 
 		//we installed nexus artifactoryplugin, then checkin snipet generator for nexus,enter the details & click on
                    snippet generator
