@@ -28,7 +28,7 @@ stages {
 
        stage('GitClone') {
             steps {
-                git 'https://github.com/kvvmanikanth/webapp-master'
+                git 'https://github.com/kvvmanikanth/mvn-helloworld.git'
                   }
             }
 
