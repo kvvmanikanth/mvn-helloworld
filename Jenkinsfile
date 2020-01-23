@@ -60,7 +60,7 @@ stages {
 			              nexusUrl: 'host123.com:8081',
 			              nexusVersion: 'nexus3', 
 			              protocol: 'http', 
-			              repository: 'sample1', 
+			              repository: 'demo-21', 
 			              version: '1.0-SNAPSHOT'
 			}
       } 
