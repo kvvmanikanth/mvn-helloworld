@@ -15,13 +15,6 @@ agent any
         maven 'M2_HOME'      
        }
 
-
-      triggers {
-         cron('* * * * *')
-            }
-
-
-
 stages {
 
 
