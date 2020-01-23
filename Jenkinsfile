@@ -57,7 +57,7 @@ stages {
 				      type: 'jar']], 
 			              credentialsId: 'c2939100-37d8-478d-9f22-0e45267e7333', 
 			              groupId: 'com.mycompany.app',
-			              nexusUrl: 'host123.com:8081',
+			              nexusUrl: 'host1234.com:8081',
 			              nexusVersion: 'nexus3', 
 			              protocol: 'http', 
 			              repository: 'demo-21', 
