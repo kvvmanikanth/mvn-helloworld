@@ -47,7 +47,7 @@ stages {
              steps {
 
 		//we installed nexus artifactoryplugin, then checkin snipet generator for nexus,enter the details & click on
-                   snippet generator
+                   //snippet generator
 
 
                 nexusArtifactUploader artifacts: [
