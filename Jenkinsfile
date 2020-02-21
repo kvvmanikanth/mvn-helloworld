@@ -43,18 +43,7 @@ stages {
                    //snippet generator
 
 
-                nexusArtifactUploader artifacts: [
-			              [artifactId: 'mvn-hello-world', 
-				      classifier: '', 
-				      file: '/var/lib/jenkins/workspace/Demo_Pipeline@2/target/my-app-1.0-SNAPSHOT.jar', 
-				      type: 'jar']], 
-			              credentialsId: 'c2939100-37d8-478d-9f22-0e45267e7333', 
-			              groupId: 'com.mycompany.app',
-			              nexusUrl: 'host1234.com:8081',
-			              nexusVersion: 'nexus3', 
-			              protocol: 'http', 
-			              repository: 'demo-21', 
-			              version: '1.0-SNAPSHOT'
+                nexusArtifactUploader credentialsId: '6549c800-3ca8-4dba-8146-0fe14f119037', groupId: 'com.mycompany.app', nexusUrl: 'vis5.com/8081', nexusVersion: 'nexus3', protocol: 'http', repository: 'sample-repo', version: '1.0-SNAPSHOT'
 			}
       } 
 }
