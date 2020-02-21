@@ -44,7 +44,7 @@ stages {
 
 
                 nexusArtifactUploader artifacts: [
-			              [artifactId: 'mvn-hello-world', 
+			              [artifactId: 'my-app', 
 				      classifier: '', 
 				      file: '/var/lib/jenkins/workspace/nexus/target/my-app-1.0-SNAPSHOT.jar', 
 				      type: 'jar']], 
